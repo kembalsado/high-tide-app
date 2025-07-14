@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Is There High Tide?</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌊 Is There High Tide?</h1>
+      <p id="location-status">Detecting your location...</p>
+    </header>
+
+    <section class="search-section">
+      <input type="text" id="search-input" placeholder="Search coastal city..." />
+      <button id="search-button">Search</button>
+    </section>
+
+    <section id="tide-info" class="card">
+      <h2>Today's Tide</h2>
+      <p id="tide-status">Loading...</p>
+      <p id="tide-times"></p>
+    </section>
+
+    <section id="sun-info" class="card">
+      <h2>Sunrise & Sunset</h2>
+      <p id="sunrise">Sunrise: --</p>
+      <p id="sunset">Sunset: --</p>
+    </section>
+
+    <section id="weather-info" class="card">
+      <h2>Weather</h2>
+      <p id="weather-status">--</p>
+      <p id="temperature">--</p>
+    </section>
+  </div>
+</body>
+</html>
