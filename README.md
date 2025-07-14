@@ -53,5 +53,5 @@ Save favorite cities
 Map integration
 
 🧑‍💻 Author
-Made by [Your Name] · GitHub: @yourGitHub
+Made by Karl Kenneth · GitHub: @kembalsado
 Built for local residents, beachgoers, and coastal communities in the Philippines 🇵🇭
